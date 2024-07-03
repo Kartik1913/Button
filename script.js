@@ -1,12 +1,14 @@
 const wrapper = document.querySelector('.wrapper');
 const question = document.querySelector('.question');
+const icon = document.querySelector('.icon');
 const yesBtn = document.querySelector('.yes-btn');
 const noBtn = document.querySelector('.no-btn');
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I Love You Too :)';
-    wrapper.classlist.toggle('fa-star');
+    icon.className = 'icon fas fa-star'; 
+});
 });
 noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
