@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #7d2ae8;
+    background: #e82ae2;
 }
 .wrapper {
     position: relative;
@@ -29,7 +29,7 @@ body {
 }
 i {
     font-size: 7.5em;
-    color: #e82ae2;
+    color: #7d2ae8;
     border: 5px solid transparent;
     outline: 3px solid #7d2ae8;
     border-radius: 50%;
