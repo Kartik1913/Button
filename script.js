@@ -6,6 +6,7 @@ const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I Love You Too :)';
+    wrapper.classlist.toggle('fa-star');
 });
 noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
