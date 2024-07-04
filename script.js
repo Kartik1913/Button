@@ -8,7 +8,7 @@ const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I Love You Too :)';
     icon.className = 'icon fa-solid fa-heart'; 
-    changeBackgroundImage('url("https://raw.githubusercontent.com/Kartik1913/Button/main/images.jpg")');
+    changeBackgroundImage('url("https://raw.githubusercontent.com/Kartik1913/Button/main/emage.jpg")');
 });
 noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
