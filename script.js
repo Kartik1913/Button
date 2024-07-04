@@ -5,6 +5,14 @@ const yesBtn = document.querySelector('.yes-btn');
 const noBtn = document.querySelector('.no-btn');
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
+
+function changeBackgroundImage(imageUrl) {
+    document.body.style.backgroundImage = imageUrl;
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundPosition = "center";
+}
+
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I Love You Too :)';
     icon.className = 'icon fa-solid fa-heart'; 
